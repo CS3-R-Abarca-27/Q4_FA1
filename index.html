@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+	<body>
+
+<center><div>  
+	
+    <h1> Create New Account </h1><br>
+		
+        <form id="signup">
+				
+				<input type="text" placeholder="Name" id="name" name="Name">
+				
+				<input type="text" placeholder="Username" id="user" name="username"><br><br>
+				
+				<input type="password" placeholder="Password" id="password" name="pass">
+				
+				<input type="password" placeholder="Confirm Password" id="cpass" name="confirmpass" required><br><br>
+
+				<input type="email" placeholder="Email Address" id="email" pattern=".+@example\.com" size="25" required /><br><br>
+				
+				<input type="text" placeholder="Address" id="add" name="Address"><br><br>
+				
+				<input placeholder="Interests" id="interests" name="comment" rows="5" cols="45"> </input><br><br>
+
+				<input class="submit" type="submit">
+				<input class="reset" type="reset"> 
+		</form> </div> </center> 
+		
+        <style>
+			body {
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,1,63,1) 0%, rgba(4,2,115,1) 87%);
+			}
+			
+			.submit {
+			  background-color: #7A3F6E;
+			  color: rgb(0, 0, 0);
+			  padding: 10px;
+			  margin: 10px;;
+              border: 1px;
+			  cursor: pointer;
+              border-radius: 5px;
+              font-weight: bold;
+			  
+			}
+
+            .reset {
+              background-color: #7A3F6E;
+			  color: rgb(0, 0, 0);
+			  padding: 10px 25px;
+			  margin: 10px;
+			  border: 1px;
+			  cursor: pointer;
+              border-radius: 5px;
+              font-weight: bold;
+            }
+
+			.submit:hover {
+			  background-color: #4800ff;
+			}
+
+            .reset:hover {
+			  background-color: #4800ff;
+			}
+
+            h1 {
+              font-weight: bold;
+            }
+
+            #name {
+                border-radius: 5px;
+                font-weight: bold;
+                margin-left: -10px;
+            }
+
+            #user {
+                border-radius: 5px;
+                font-weight: bold;
+                
+            }
+
+            #password {
+                border-radius: 5px;
+                font-weight: bold;
+                margin-left: -10px;
+            }
+
+            #cpass {
+                border-radius: 5px;
+                font-weight: bold;
+            }
+
+            #email {
+                border-radius: 5px;
+                font-weight: bold;
+                margin-left: -10px;
+                padding-right: 150px;
+            }
+
+            #add {
+                border-radius: 5px;
+                font-weight: bold;
+                margin-left: -10px;
+                padding-right: 185px;
+            }
+
+            #interests {
+                border-radius: 5px;
+                font-weight: bold;
+                margin-left: -10px;
+                padding-right: 185px;
+                
+            }
+
+            ::placeholder {
+                color: rgb(227, 117, 136);
+            }
+
+		</style>
+	</body>
+</html>
